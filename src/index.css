@@ -1,0 +1,29 @@
+.project-details-content {
+  white-space: pre-wrap;
+}
+
+.loading-screen{
+  width: 400px; height: 400px;
+  position: absolute; top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.profile-icon{ 
+  width: 40px; height: 40px; display: flex; justify-content: center; align-items: center; overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .dash-notifications{
+    display: none;
+  }
+  
+}
